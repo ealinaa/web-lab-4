@@ -12,19 +12,37 @@ h1{
     padding-top: 1rem;
     text-align: center;
 }
-.container {
+#container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-evenly;
     /* align-items: center; */
 }
+.blog-container{
+    display: flex;
+    font-size: 18px;
+    border: 2px solid #b8b8b8;
+    border-radius: 5px;
+    padding: 1.5rem 1rem;
+    margin: 4rem 0;
+    background-color: whitesmoke;
+    max-width: 45%;
+}
+.blog_post {
+    padding-right: 1rem;
+    /* margin: 0 1.5rem; */
+    /* border: 2px solid #b8b8b8; */
+    width: 60%
+}
 .blog-detail {
+   
     line-height: 55px;
     padding-left: 1.5rem;
     width: 40%;
+    
 }
 img{
-    width: 50%;
+    width: 100%;
     padding: 1rem 0;
 }
 button{
